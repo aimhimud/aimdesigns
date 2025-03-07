@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aimdesigns | Professional Photo Editing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">aim<span>designs</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 12H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 6H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 18H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Precision Photo Editing<br>for Your Vision</h1>
+                <p>Expert photo enhancement services tailored for individuals and businesses</p>
+                <a href="#contact" class="btn">Start Now</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 13l5 5 5-5"/>
+                <path d="M7 7l5 5 5-5"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+                <p>Professional editing solutions to elevate your imagery</p>
+            </div>
+            <div class="services-tabs">
+                <button class="tab-btn active" data-tab="personal">For Individuals</button>
+                <button class="tab-btn" data-tab="business">For Businesses</button>
+            </div>
+            <div class="service-panels">
+                <!-- Panel for Individuals -->
+                <div class="service-panel active" id="personal-panel">
+                    <div class="service-grid">
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_portrait_400x320.jpg" 
+                                 data-after="images/after_portrait_400x320.jpg" 
+                                 data-full-before="images/before_portrait_800x640.jpg" 
+                                 data-full-after="images/after_portrait_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Professional Portrait Enhancement</h3>
+                                <p>Transforming your chosen photo into a refined LinkedIn-ready headshot with custom attire and a complementary background.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_personal_400x320.jpg" 
+                                 data-after="images/after_personal_400x320.jpg" 
+                                 data-full-before="images/before_personal_800x640.jpg" 
+                                 data-full-after="images/after_personal_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Personal Photo Refinement</h3>
+                                <p>Delivering subtle enhancements to personal or family images, including eye alignment, skin smoothing, hair control, clothing adjustments, and color optimization.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_pet_400x320.jpg" 
+                                 data-after="images/after_pet_400x320.jpg" 
+                                 data-full-before="images/before_pet_800x640.jpg" 
+                                 data-full-after="images/after_pet_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Pet Image Perfection</h3>
+                                <p>Removing leashes or harnesses from pet photos and optionally placing them in imaginative new environments.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_background_400x320.jpg" 
+                                 data-after="images/after_background_400x320.jpg" 
+                                 data-full-before="images/before_background_800x640.jpg" 
+                                 data-full-after="images/after_background_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Background Optimization</h3>
+                                <p>Eliminating distractions from backgrounds to ensure the focus remains on your photo’s key elements.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_memorial_400x320.jpg" 
+                                 data-after="images/after_memorial_400x320.jpg" 
+                                 data-full-before="images/before_memorial_800x640.jpg" 
+                                 data-full-after="images/after_memorial_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Memorial Photo Tributes</h3>
+                                <p>Crafting dignified, enhanced images to honor loved ones during meaningful times.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_resize_400x320.jpg" 
+                                 data-after="images/after_resize_400x320.jpg" 
+                                 data-full-before="images/before_resize_800x640.jpg" 
+                                 data-full-after="images/after_resize_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Photo Resizing</h3>
+                                <p>Precisely resizing images to suit specific needs, such as desktop wallpapers.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_medical_400x320.jpg" 
+                                 data-after="images/after_medical_400x320.jpg" 
+                                 data-full-before="images/before_medical_800x640.jpg" 
+                                 data-full-after="images/after_medical_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Medical Equipment Removal</h3>
+                                <p>Editing out medical devices from sensitive photos, such as NICU images, for a cleaner, more serene result.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_fantasy_400x320.jpg" 
+                                 data-after="images/after_fantasy_400x320.jpg" 
+                                 data-full-before="images/before_fantasy_800x640.jpg" 
+                                 data-full-after="images/after_fantasy_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Fantasy Poster Design</h3>
+                                <p>Creating bespoke posters, turning individuals into cinematic heroes or enhancing cosplay shots with thematic settings.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_removal_400x320.jpg" 
+                                 data-after="images/after_removal_400x320.jpg" 
+                                 data-full-before="images/before_removal_800x640.jpg" 
+                                 data-full-after="images/after_removal_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Unwanted Person Removal</h3>
+                                <p>Seamlessly removing photobombers or unwanted individuals from your cherished photos.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_face_400x320.jpg" 
+                                 data-after="images/after_face_400x320.jpg" 
+                                 data-full-before="images/before_face_800x640.jpg" 
+                                 data-full-after="images/after_face_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Face Replacement</h3>
+                                <p>Correcting group photos by replacing awkward expressions with ideal ones for a polished finish.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img slider-container" 
+                                 data-before="images/before_holiday_400x320.jpg" 
+                                 data-after="images/after_holiday_400x320.jpg" 
+                                 data-full-before="images/before_holiday_800x640.jpg" 
+                                 data-full-after="images/after_holiday_800x640.jpg">
+                                <div class="before-img"></div>
+                                <div class="after-img"></div>
+                                <input type="range" min="0" max="100" value="50" class="slider">
+                            </div>
+                            <div class="service-content">
+                                <h3>Custom Holiday Cards</h3>
+                                <p>Designing distinctive cards for Christmas, Halloween, or birthdays that capture attention.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Panel for Businesses -->
+                <div class="service-panel" id="business-panel">
+                    <div class="service-grid">
+                        <div class="service-card">
+                            <div class="service-img" 
+                                 style="background-image: url('images/real_estate_400x320.jpg');" 
+                                 data-full="images/real_estate_800x640.jpg"></div>
+                            <div class="service-content">
+                                <h3>Real Estate Photo Refinement</h3>
+                                <p>Enhancing property images for listings with precision, maintaining authenticity for optimal appeal.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img" 
+                                 style="background-image: url('images/social_media_400x320.jpg');" 
+                                 data-full="images/social_media_800x640.jpg"></div>
+                            <div class="service-content">
+                                <h3>Social Media Templates</h3>
+                                <p>Developing a cohesive, standout aesthetic for your brand’s social media presence.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img" 
+                                 style="background-image: url('images/product_400x320.jpg');" 
+                                 data-full="images/product_800x640.jpg"></div>
+                            <div class="service-content">
+                                <h3>Product Image Enhancement</h3>
+                                <p>Elevating product visuals to highlight their best features and attract customers.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img" 
+                                 style="background-image: url('images/thumbnails_400x320.jpg');" 
+                                 data-full="images/thumbnails_800x640.jpg"></div>
+                            <div class="service-content">
+                                <h3>YouTube & Instagram Thumbnails</h3>
+                                <p>Designing compelling thumbnails to boost engagement and viewership.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img" 
+                                 style="background-image: url('images/corporate_400x320.jpg');" 
+                                 data-full="images/corporate_800x640.jpg"></div>
+                            <div class="service-content">
+                                <h3>Unified Corporate Portraits</h3>
+                                <p>Editing team photos for a consistent look that reinforces your brand identity.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-img" 
+                                 style="background-image: url('images/wedding_400x320.jpg');" 
+                                 data-full="images/wedding_800x640.jpg"></div>
+                            <div class="service-content">
+                                <h3>Wedding Album Processing</h3>
+                                <p>Providing bulk editing for wedding photographers to streamline high-quality results.</p>
+                                <a href="#" class="expand-img">Expand Image →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <p>A showcase of recent editing projects</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-full="images/portfolio_portrait_800x640.jpg">
+                    <img src="images/portfolio_portrait_600x600.jpg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Portrait Refinement</h3>
+                        <p>Elevated a casual photo into a professional LinkedIn headshot.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-full="images/portfolio_property_800x640.jpg">
+                    <img src="images/portfolio_property_600x600.jpg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Property Enhancement</h3>
+                        <p>Optimized images for a luxury real estate listing.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-full="images/portfolio_pet_800x640.jpg">
+                    <img src="images/portfolio_pet_600x600.jpg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Pet Photo Edit</h3>
+                        <p>Removed a leash and refined the background for a dog’s portrait.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-full="images/portfolio_product_800x640.jpg">
+                    <img src="images/portfolio_product_600x600.jpg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Product Highlight</h3>
+                        <p>Enhanced visuals for an e-commerce product listing.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-full="images/portfolio_holiday_800x640.jpg">
+                    <img src="images/portfolio_holiday_600x600.jpg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Holiday Card Creation</h3>
+                        <p>Designed a custom Christmas card for a client.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-full="images/portfolio_wedding_800x640.jpg">
+                    <img src="images/portfolio_wedding_600x600.jpg" alt="Portfolio Item" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Wedding Album Edit</h3>
+                        <p>Processed a full wedding album for a photographer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Testimonials</h2>
+                <p>Feedback from satisfied clients</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"The transformation of a blurry family photo was exceptional—subtle yet impactful."</p>
+                    <h3>Sarah M.</h3>
+                    <span>Parent</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Property images have never looked so polished. The work is swift and authentic."</p>
+                    <h3>James R.</h3>
+                    <span>Real Estate Agent</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"A superhero poster for my son’s birthday was a brilliant success—such creativity."</p>
+                    <h3>Emily T.</h3>
+                    <span>Parent</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Team headshots now align perfectly, giving my business a professional edge."</p>
+                    <h3>Mike L.</h3>
+                    <span>Business Owner</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>Reach out to discuss your photo editing needs</p>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm" action="https://getform.io/f/bejrepxa" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" class="form-control" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">aim<span>designs</span></a>
+                    <p style="color:#aaa; margin-top:15px;">Professional photo editing services for individuals and businesses.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 aimdesigns. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   <!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+    <span class="close-btn" id="closeBtn">×</span>
+    <div class="lightbox-slider" id="lightboxSlider">
+        <div class="before-img"></div>
+        <div class="after-img"></div>
+        <input type="range" min="0" max="100" value="50" class="slider" id="lightboxRange">
+    </div>
+</div>
+
+<!-- Notificación personalizada -->
+<div id="notification" class="notification">
+    <span id="notification-message"></span>
+    <button id="close-notification" class="close-notification">×</button>
+</div>
+
+<!-- Solo un script al final -->
+<script src="script.js"></script>
+</body>
+</html>
